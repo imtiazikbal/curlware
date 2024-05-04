@@ -13,8 +13,9 @@ To install the project, follow these steps:
 5. Install dependencies using `composer install`.
 6. `cp .exapmle.env .env`.
 7. `php artisan key:generate.`
-8. `php artisan serve`
-9. `npm run dev`
+8. `php artisan migrate:refresh --seed`
+9. `php artisan serve`
+10. `npm run dev`
 
 
 
