@@ -1,0 +1,2 @@
+Large image -> H-550, W-750
+Small image -> H-220, W-300
