@@ -32,7 +32,7 @@ class FontendController extends Controller
     {
        
         //dd($post);
-        $comments = Comment::with('user')->get();
+        $comments = Comment::Where('post_id', $post->id)->with('user')->get();
        
         
         //return $comments;
