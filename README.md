@@ -11,10 +11,10 @@ To install the project, follow these steps:
 2. Install dependencies using `npm install`
 4.  .cd your-project-directory
 5. Install dependencies using `composer install`.
-6. cp .exapmle.env .env
-7. php artisan key:generate.
-8. php artisan serve
-9. npm run dev
+6. `cp .exapmle.env .env`.
+7. `php artisan key:generate.`
+8. `php artisan serve`
+9. `npm run dev`
 
 
 
